@@ -1,0 +1,126 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  font-family: 'Lato',arial,sans-serif;
+  font-size: 16px;
+  background-color: #D6DBDC;
+}
+
+.profile-image {
+  max-height: 200px;
+  padding-right: 30px;
+}
+
+header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #94A7BC;
+  border-bottom: 1px solid #94A7BC;
+  box-shadow: 0px 3px 10px black;
+}
+
+.social a {
+  background-color: #254653;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.social a .fa {
+  font-size: 20px;
+  color: #A7B4B9;
+}
+
+.list-marker {
+  padding-right: 10px;
+  color: gray;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.inner,
+.footer {
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px black;
+  border: 1px solid black;
+  background-color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+
+}
+
+.project-title {
+  font-weight: bold;
+}
+
+.project-description {
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+
+.section {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 20px;
+  color: #777;
+  border-top: 1px solid black;
+  text-align: center;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+div.description > ul > li {
+  margin-left: 10px;
+  padding-bottom: 5px;
+}
+
+.main {
+  margin: 20px 0;
+}
+
+.main p + h4 {
+  margin-top: 28px;
+}
+
+.bar-label{
+  color: gray;
+  font-size: 14px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.skill-label{
+  position: relative;
+  margin-top:0;
+  margin-bottom:10px;
+}
+
+@media (min-width: 1400px) {
+  .container.content {
+    width: 1360px;
+  }
+}

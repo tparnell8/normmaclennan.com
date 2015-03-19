@@ -1,0 +1,248 @@
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <title>Norm MacLennan</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <!-- build:css(.) styles/vendor.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
+  <!-- endbower -->
+  <!-- endbuild -->
+  <!-- build:css(.tmp) styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+
+</head>
+<body>
+  <!--[if lt IE 10]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <header>
+    <div class="container">
+      <img src="images/me.webp" height="200px" class="profile-image img-responsive pull-left"/>
+      <h1>I'm Norm.</h1>
+      <p class="lead">I computer, usually.</p>
+      <p><ul class="social list-inline">
+        <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="#"><i class="fa fa-bold"></i></a></li>
+      </ul></p>
+    </div>
+  </header>
+
+
+  <div class="container content">
+    <div class="row main">
+      <div class="primary col-lg-8">
+        <section class="about section">
+          <div class="inner">
+            <h3><b>About Me</b></h3>
+
+            <p>My official title has been some variation of Software Engineer for about 6 months as of this writing, but I still
+               self-identify as a System Administrator when asked. Make of that what you will.</p>
+
+              <p>What I make of it is that I am a person who is driven to design maintainable, scalable, and useful systems
+                 that solve real problems for my users. My goal is always to write as little code as possible.</p>
+              </div>
+        </section>
+
+        <section class="history section">
+          <div class="inner">
+            <h3><b>Professional History</b></h3>
+            <div class="job-list">
+
+              <div class="job">
+                <p class="title"><b>Software Engineer II</b> - Cimpress (Aug 2014 - Present)</p>
+                <div class="description">
+                  <ul class="list-unstyled">
+                    <li>Creating, implementing, and maintaining the software and hardware infrastructure to support a growing and diverse service oriented architecture.</li>
+                    <li>Enabling internal teams to deliver better software by providing development infrastructure, continuous integration/delivery tools, and logging/monitoring tools.</li>
+                    <li><b>Technologies</b>: C#, Ruby, SQL, Nginx, Sensu, Logstash, Puppet.
+                    </ul>
+                </div>
+              </div>
+
+              <div class="job">
+                <p class="title"><b>Lead Systems Administrator</b> - Vistaprint (Oct 2010 - Aug 2014)</p>
+                <div class="description">
+                  <ul class="list-unstyled">
+                    <li>Monitoring the health of and providing support for Vistaprint's globally-distributed production infrastructure.</li>
+                    <li>Creating, implementing, and maintaining tools, automation, and applications to support infrastructure and other internal teams.</li>
+                    <li><b>Technologies</b>: C#, SQL, IIS, SCOM, Nagios, PowerShell</li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <section class="projects section">
+          <div class="inner">
+            <h3><b>Recent Projects</b></h3>
+
+            <div class="project">
+              <p class="project-title"><a href="http://dashiell.io/">Dashiell</a></p>
+              <div class="project-image"></div>
+              <div class="project-description">
+                <p>Dashiell is a a C++ application that wraps OSQuery and CFacter in websockets to make system state of a fleet of servers
+                   queryable at any time from a web browser.</p>
+                <p>The nodejs web server that brokers the websockets connection provides a simple UI for executing queries and browsing results.</p>
+                <p>Unfortunately, this project is currently dead. I have been unable to get it compiling recently due to changes in the OSQuery project.</p>
+              </div>
+            </div>
+
+            <div class="project">
+              <p class="project-title"><a href="https://github.com/maclennann/rake-terraform">rake-terraform</a></p>
+              <div class="project-image"></div>
+              <div class="project-description">
+                <p>rake-terraform is a ruby gem that provides custom rake tasks for using Hashicorp Terraform.</p>
+                <p>I have been using terraform often in projects both personal and work-related.</p>
+                <p>Building these rake tasks has allowed me to much more completely combine Terraform-related activities into the development, build, and
+                   test pipeline.</p>
+              </div>
+            </div>
+
+            <div class="project">
+              <p class="project-title"><a href="https://github.com/maclennann/hubot-chartroom">hubot-chartroom</a></p>
+              <div class="project-image"></div>
+              <div class="project-description">
+                <p>hubot-chartroom is an npm module that provides a custom script for a hubot.</p>
+                <p>I wrote this module to fetch graphs from our internal Graphite server and upload them directly to our hipchat instance.</p>
+                <p>This way, users in the chatroom can easily view the graphs if they are remote and unable to access our internal graphite.</p>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+      </div>
+
+      <div class="secondary col-lg-4">
+
+        <section class="principles section">
+          <div class="inner">
+            <h3><b>Guiding Principles</b></h3>
+            <p>I will write as little code as possible.</p>
+            <p>I will use and contribute to open source.</p>
+            <p>I will practice empathy in communication with others.</p>
+            <p>I will construct operable and maintainable systems.</p>
+            <p>I will build reliable and repeatable processes.</p>
+          </div>
+        </section>
+
+        <section class="skills section">
+          <div class="inner">
+            <h3><b>Skills</b></h3>
+            <p>I'm pretty heavily diversified between Operations and Development skills. Here's a smattering of stuff I've been heavily invested in recently.</p>
+            <hr/>
+            <div class="skill-list">
+
+              <div class="item">
+                <h4 class="skill-label">Linux Administration <span class="bar-label">Professional</span></h4>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <h4 class="skill-label">C#/.NET <span class="bar-label">Expert</span></h4>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <h4 class="skill-label">Ruby <span class="bar-label">Intermediate</span></h4>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <h4 class="skill-label">Puppet <span class="bar-label">Professional</span></h4>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <h4 class="skill-label">Javascript <span class="bar-label">Professional</span></h4>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <section class="blog section">
+          <div class="inner">
+            <h3><b>Recent Blog Posts</b></h3>
+            <div id="blog-items">
+              <p id="blog-placeholder"><i class="fa fa-circle-o-notch fa-spin"></i>&nbsp;Loading Recent Blog Posts...</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Norm MacLennan - normmaclennan.com</p>
+    </div>
+
+  </div>
+  <!-- build:js(.) scripts/vendor.js -->
+  <!-- bower:js -->
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/jfeed/build/dist/jquery.jfeed.js"></script>
+  <script src="bower_components/jquery-migrate/jquery-migrate.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+  (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X');ga('send','pageview');
+  </script>
+
+  <!-- build:js(.) scripts/plugins.js -->
+  <script src="bower_components/bootstrap/js/affix.js"></script>
+  <script src="bower_components/bootstrap/js/alert.js"></script>
+  <script src="bower_components/bootstrap/js/dropdown.js"></script>
+  <script src="bower_components/bootstrap/js/tooltip.js"></script>
+  <script src="bower_components/bootstrap/js/modal.js"></script>
+  <script src="bower_components/bootstrap/js/transition.js"></script>
+  <script src="bower_components/bootstrap/js/button.js"></script>
+  <script src="bower_components/bootstrap/js/popover.js"></script>
+  <script src="bower_components/bootstrap/js/carousel.js"></script>
+  <script src="bower_components/bootstrap/js/scrollspy.js"></script>
+  <script src="bower_components/bootstrap/js/collapse.js"></script>
+  <script src="bower_components/bootstrap/js/tab.js"></script>
+  <!-- endbuild -->
+
+  <!-- build:js({app,.tmp}) scripts/main.js -->
+  <script src="scripts/main.js"></script>
+  <!-- endbuild -->
+</body>
+</html>
