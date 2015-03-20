@@ -293,6 +293,9 @@ module.exports = function (grunt) {
             'styles/fonts/{,*/}*.*'
           ]
         }, {
+          src: 'CNAME',
+          dest: '<%= config.dist %>/CNAME'
+        }, {
           src: 'node_modules/apache-server-configs/dist/.htaccess',
           dest: '<%= config.dist %>/.htaccess'
         }, {
