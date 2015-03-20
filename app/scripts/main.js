@@ -3,7 +3,7 @@
 function makeUL(array) {
   var list = document.createElement('ul');
 
-  array.forEach(function(e){
+  array.slice(0,10).forEach(function(e){
     var item = document.createElement('li');
     var link = document.createElement('a');
     link.href = e.link;

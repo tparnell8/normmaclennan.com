@@ -5,13 +5,26 @@
   padding: 0.2em 0;
 }
 
-/* Space out content a bit */
 body {
   padding-top: 0px;
   padding-bottom: 20px;
-  font-family: 'Lato',arial,sans-serif;
+  font-family: 'open sans',sans-serif;
   font-size: 16px;
   background-color: #D6DBDC;
+}
+
+.transition {
+  transition-property: background-color, color;
+  transition-duration: 2s;
+  transition-timing-function: ease-out;
+}
+
+.transition:hover {
+  position: relative;
+  transition-property: background-color, color;
+  transition-duration: .2s;
+  transition-timing-function: ease-out;
+  background-color:#484848;
 }
 
 .profile-image {
@@ -20,11 +33,16 @@ body {
 }
 
 header {
+  font-family: 'open sans',sans-serif;
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: #94A7BC;
   border-bottom: 1px solid #94A7BC;
   box-shadow: 0px 3px 10px black;
+}
+
+section > div > p {
+  font-family: 'roboto',sans-serif;
 }
 
 .social a {
@@ -47,7 +65,6 @@ header {
   color: gray;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .inner,
 .footer {

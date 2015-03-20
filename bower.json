@@ -5,7 +5,9 @@
     "bootstrap": "~3.2.0",
     "modernizr": "~2.8.2",
     "font-awesome": "~4.3.0",
-    "jfeed": "*",
-    "jquery-migrate": "~1.2.1"
+    "jquery-migrate": "~1.2.1",
+    "jFeed": "maclennann/jfeed",
+    "roboto-fontface": "~0.3.0",
+    "open-sans": "~1.1.0"
   }
 }
